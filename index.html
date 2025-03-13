@@ -1,0 +1,1273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refesh" content="5">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henaron Tech.World Portfolio</title>
+    <link rel="stylesheet" href="bootfiles/bootstrap.css">
+    <link rel="stylesheet" href="bootfiles/animate.css-main/animate.css">
+    <link rel="stylesheet" href="bootfiles/bootstrap.min.css">
+    <link rel="stylesheet" href="bootfiles/bootstrap-grid.css">
+    <link rel="stylesheet" href="bootfiles/animate.css-main/animate.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.css">
+
+
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:'Poppins', sans-serif ,Franklin Gothic Medium' 'Arial Narrow, 'Segoe UI', Tahoma, Geneva,
+     Verdana, sans-serif,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:16px;
+    color: #676a81;
+    background: #b8d9bd;
+    max-width:1920px;
+    margin:0 auto;
+    overflow-x:hidden;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+@keyframes adver-trend{
+        0%{
+            transform:translateY(0);
+            color:#005a48;
+        }
+
+        25%{
+            transform:translateY(-10px);
+            color: #bfb27c;
+        }
+
+        50%{
+            transform:translateY(0);
+            color:#b8d9bd;
+            
+        }
+
+        75%{
+            transform:translateY(0);
+            color:#d3f2ec;
+        }
+
+        100%{
+            transform:translateY(0);
+            color:#ffffff;
+        }
+    }
+
+
+
+.hena{
+    font-size: 24rem;
+    color: #d3f2ec;
+    font-style: oblique;
+    text-shadow: 0 0 10px rgba(0,255,0,0.8);
+    animation-duration: 2s !important; /* Slower animation */
+    font-weight:bold;
+    /* color:whhite !important; */
+    font-weight: bold;
+    animation:adver-trend 1.9s infinite ease-in-out;
+}
+
+
+
+.hena:hover{
+    color: #ffffff;
+}
+
+.teck{
+    font-style: italic;
+    color: #bfb27c;
+}
+
+.parent {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/hen..jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-color: #1b1b2f; */
+    color: white;
+    position: relative;
+}
+
+
+.parent::before{
+    position:absolute;
+    content: " ";
+    top:0;
+    left:0;
+    /* background-color: #d3f2ec03; */
+    background:rgba(0, 0, 0, 0.92);
+    width:100%;
+    height:100%;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    color:  black;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+    border-bottom: 1px solid   #005a48;
+}
+
+.card img {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+
+.navbar-nav .nav-link {
+    font-weight: bold;
+}
+
+.naaav ul li a{
+    font-size: small;
+    margin: 10px;
+    border: 1px solid #bfb27c;
+    /* font-weight: bold; */
+    /* color: hwb(322 5% 76%) !important; */
+    color: #d3f2ec;
+    transition: 1s ease;
+    padding: 10px !important;
+}
+
+ .naaav ul li a:hover{
+    color: #005a48 !important;
+    font-weight: bold;
+    background-color: #b8d9bd;
+    box-shadow: 0px 0px 15px rgba(179, 255, 179, 0.8);
+    border:none;
+    
+
+} 
+
+.nav-link.active{
+    color: #b8d9bd !important;
+    box-shadow: 0 0 10px #ffffff;
+
+}
+
+
+.nava{
+    background-color: #005a48;
+    position: sticky;
+    box-shadow:  0 5px 20px rgba(0, 0, 0, 0.7);
+    backdrop-filter:blur(50px);
+    -webkit-backdrop-filter:blur(50px);
+}
+
+.navbar-brand{
+    font-size: 25px;
+}
+
+
+.hen{
+    color: hwb(322 5% 76%);
+    font-size: 40px;
+}
+
+
+
+
+marquee{
+    font-style: italic;
+    color: #d3f2ec;
+}
+
+
+
+@media(max-width:576px){
+    .hen{
+        font-size: 14px;
+    }
+
+    .repeat{
+        font-size: 20px;
+    }
+}
+
+
+.mult{
+    background-color: #d3f2ec;
+}
+
+.multip{
+    background-color: #005a48;
+    border-radius: 5px;
+    border: 2px solid #bfb27c;
+}
+
+.multiple-text {
+
+    padding: 20px;
+    font-size: 20px;
+    white-space:pre-line;
+    /* overflow: hidden; */
+    animation: typing 2s steps(30, end), blink-caret 0.75s step-end infinite;
+    color:#d3f2ec;
+    text-transform: initial;
+    line-height: 1.8; 
+    font-language-override: inherit;
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.multiple-text:hover{
+    transform: translateX(-10px);
+}
+
+.parent-text h2{
+    margin-top: 20%;
+    color:#005a48;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 5px 0px 15px rgba(60, 70, 68, 0.221);
+}
+
+
+.parent-text h2 span {
+    color:  #d3f2ec;
+}
+
+
+.parent-text p{
+    color: #bfb27c;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    /* margin: 30px 0 60px; */
+    letter-spacing: 1px;
+    width: 50%;
+}
+
+.parent-text a{
+    text-decoration: none;
+    width: 30%;
+    height: 70px;
+    padding: 10px 18px;
+    border-radius: 3px;
+    text-transform: capitalize;
+    color:white;
+    background:#005a48;
+    border:none;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,.2);
+    -webkit-transition: 0.3s linear; 
+    -moz-transition: 0.3s linear; 
+    -ms-transition: 0.3s linear; 
+    -o-transition: 0.3s linear; 
+    transition: 0.3s linear;
+}
+
+.parent-text a:hover{ 
+    box-shadow: 0 5px 20px rgba(0,0,0,.4);
+    background:#d3f2ec; 
+    color: #00000f;
+    font-weight: bold;}
+
+
+.repeat{
+    color: #d3f2ec;
+    font-weight: bold;
+    font-size: 40px;
+    border-right: 5px solid #d3f2ec;
+    text-shadow: 5px 0px 15px rgba(179, 255, 179, 0.8);
+
+}
+
+.imagee{
+     
+     height: fit-content;
+     width: 100%;
+     border: none;
+        
+}
+
+
+.pic{
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 50%;
+    border: 1px solid rgba(131, 222, 247, 0.25);
+    box-shadow: 0 5px 20px rgba(0,0,0,.2);
+    
+}
+
+
+
+.imagee:hover img{
+
+    box-shadow:  0 0 50px rgba(131, 222, 247, 0.25);
+    transition: left 4s ease;
+    object-fit: cover;
+    transform: scale(1.20);
+    transition: transform 0.5s ease-in-out;
+}
+
+.imagee:hover.pic{
+    left: 20%;
+}
+
+
+
+.services {
+    background-color: #b8d9bd;
+}
+
+.servi{
+    color: #005a48 !important;
+}
+
+.service-card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
+.service-card .card-body {
+    text-align: center;
+    padding: 30px;
+}
+
+.service-icon {
+    font-size: 40px;
+    color: #005a48;
+    margin-bottom: 15px;
+}
+
+.service-card .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #bfb27c;
+}
+
+.service-card .card-text {
+    color: #555;
+}
+
+
+
+.aboutme{
+    
+    background-color: #b8d9bd;
+    height: fit-content;
+    /* margin-top: 10%; */
+}
+
+.about-cont{
+    transition: transform 0.5s ease-in-out;
+    overflow: hidden;
+    border-bottom: 4px solid #bfb27c;
+
+}
+
+
+.ab-img{
+    background-image: url(images/mine4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    border: 2px solid #bfb27c;
+}
+
+.ab-img::before{
+    position:  absolute;
+    content: " ";
+    top: 0;
+    left:  0;
+    width: 100%;
+    height:  100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* background: black; */
+    
+}
+
+
+.abt-nam h1, h2{
+    color: #005a48;
+}
+
+
+
+.skil,.pro{
+    background-color: #d3f2ec;
+    border: 2px solid #bfb27c;
+}
+
+.skiii{
+    background-color: #005a48;
+    padding: 20px;
+    border:2px solid #bfb27c;
+    border-radius: 5px;
+}
+
+
+.section-title{
+    color: #d3f2ec;
+    border-bottom: 1px solid   #bfb27c;
+
+}
+
+
+.card-skil{
+
+    position: relative;
+    height: 150px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border-right: 1px solid #b2c1ce;
+    cursor: pointer;
+    overflow:hidden;
+    -webkit-transition:background 0.5s linear; 
+    -moz-transition:background 0.5s linear; 
+    -ms-transition:background 0.5s linear; 
+    -o-transition:background 0.5s linear; 
+    transition:background 0.5s linear;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+
+.card-skil:hover{
+       -webkit-transform:scale(1);
+        -moz-transform:scale(1);
+        -ms-transform:scale(1);
+        -o-transform:scale(1);
+        transform:scale(1.10);
+        top:0;
+        background-color:#005a48;
+        color: white;
+        box-shadow:   0 5px 20px rgba(211, 207, 207, 0.2);
+        transition: 1s;
+
+    }
+
+
+
+.percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #d3f2ec;
+    color:#bfb27c;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card-skil:hover .percentage {
+    opacity: 1;
+}
+
+
+.contactme{
+    background-color: #005a48;
+    padding-bottom: 10px;
+   
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+
+.contact-info a {
+    color: #d3f2ec;
+    text-decoration: none;
+}
+
+
+.contact-info strong{
+    color: #bfb27c;
+}
+
+
+
+.whatsapp-button {
+    display: inline-flex;
+    align-items: center;
+    background: #25D366;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.whatsapp-button img {
+    width: 20px;
+    margin-right: 8px;
+}
+
+.whatsapp-button:hover {
+    background: #1ebd5a;
+}
+
+
+.project-card{
+    /* background: #005a48; */
+    justify-content: center; 
+    align-items: center; 
+    /* border-right: 1px solid #b2c1ce; */
+    cursor: pointer;
+    overflow:hidden;
+    -webkit-transition:background 0.5s linear; 
+    -moz-transition:background 0.5s linear; 
+    -ms-transition:background 0.5s linear; 
+    -o-transition:background 0.5s linear; 
+    transition:background 0.5s linear;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover{
+        -webkit-transform:scale(1);
+        -moz-transform:scale(1);
+        -ms-transform:scale(1);
+        -o-transform:scale(1);
+        transform:scale(1.05);
+        top:0;
+        /* background-color:#005a48; */
+        color: white;
+        box-shadow:   0 5px 20px rgba(211, 207, 207, 0.2);
+        transition: 1s;
+    
+}
+
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.pro-detail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #d3f2ec60, #005a4885); /* Dark overlay */
+    color:#005a48;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    text-align: center;
+    padding: 20px;
+    transform: translateX(-10px);
+}
+
+.image-container:hover img {
+    opacity: 0.3;
+}
+
+.image-container:hover .pro-detail {
+    opacity: 1;
+}
+
+/* .project-card:hover.pro-detail{
+    opacity: 1;
+}
+
+.projet-card img{
+    height: 250px;
+
+} */
+
+.proj h2{
+    color:#005a48;
+}
+
+
+
+.fa{
+    color: #bfb27c;
+}
+
+.social-media{
+    margin-left: 40%;
+    
+    
+}
+
+.face,.inst,.whats,.lin,.gits{
+    margin: 10%;
+    font-size: 30px;
+    color: #bfb27c;
+    
+}
+
+.face:hover{
+    color: #b8d9bd;
+    transition: 1s;
+    box-shadow:  0 5px 20px rgba(211, 207, 207, 0.2);
+
+}
+
+.inst:hover{
+    color:  #b8d9bd;
+    transition: 1s;
+    box-shadow:  0 5px 20px rgba(211, 207, 207, 0.2);
+
+}
+
+.whats:hover{
+    color:  #b8d9bd;
+    transition: 1s;
+    box-shadow:  0 5px 20px rgba(211, 207, 207, 0.2);
+
+}
+
+.lin:hover{
+    color: #b8d9bd;
+    transition: 1s;
+    box-shadow:  0 5px 20px rgba(211, 207, 207, 0.2);
+
+}
+
+
+.gits:hover{
+    color:  #b8d9bd;
+    transition: 1s;
+    box-shadow:  0 5px 20px rgba(211, 207, 207, 0.2);
+
+}
+
+
+    
+    .form-label{
+       color: #bfb27c;
+}
+
+    form button{
+        background-color:#b8d9bd !important;
+        border: none !important;
+    }
+
+    form button:hover{
+        background-color:  rgb(78, 155, 155) !important;
+
+    }
+
+    [placeholder]:focus::-webkit-input-placeholder {
+        -webkit-transition: opacity 0.3s 0.3s ease; 
+        -moz-transition: opacity 0.3s 0.3s ease; 
+        -ms-transition: opacity 0.3s 0.3s ease; 
+        -o-transition: opacity 0.3s 0.3s ease; 
+        transition: opacity 0.3s 0.3s ease; 
+        opacity: 0;
+    }
+
+    .fix{
+        position: relative;
+        clear: both;}
+
+
+    #scroll-top .return-top {
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        /* display: none; */
+        width: 40px;
+        line-height: 40px;
+        height: 40px;
+        text-align: center;
+        font-size: 20px;
+        cursor: pointer;
+        color: white;
+        background: #bfb27c;
+        border:1px solid #ffffff ;
+        border-radius:50%;
+        -webkit-transition: .5s; 
+        -moz-transition:.5s; 
+        -ms-transition:.5s; 
+        -o-transition:.5s;
+        transition: .5s;
+        z-index: 2;
+
+    
+    }
+
+
+    #scroll-top .return-top:hover {
+        background-color: rgb(78, 155, 155);
+        color: #bfb27c;
+        border:1px solid #ffff ;
+        box-shadow: 0 5px 20px rgba(246, 246, 246, 0.2);
+    }
+
+    #scroll-top .return-top a i{
+        position:relative;
+        bottom:0;
+    
+    }
+
+    #scroll-top .return-top a i{
+        position: relative;
+        animation-name: example;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        animation-duration:1s;
+    }
+
+    @keyframes example {
+        0%   {bottom:0px;}
+        100%  {bottom:7px;}
+    }
+
+
+    /* Slow Motion Fade-in Animation */
+    @keyframes slowFadeIn {
+    from {
+    opacity: 0;
+    transform: translateY(-50px);
+    }
+    to {
+    opacity: 1;
+    transform: translateY(0);
+    }
+    }
+
+    /* Apply to Navbar */
+    .nava {
+    animation: slowFadeIn 2s ease-in-out;
+    }
+
+    /* Section Animations */
+    .slow-motion {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 2s ease-out, transform 2s ease-out;
+    }
+
+    /* Active class to trigger animation */
+    .slow-motion.active {
+    opacity: 1;
+    transform: translateY(0);
+    }
+
+
+.footer {
+    background-color: #b8d9bd;
+    color: #005a48;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+
+
+.success-msg {
+    color: green;
+    font-weight: bold;
+}
+
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top nava shadow-5">
+        <div class="container ">
+            <!-- <img src="henaron.png" alt="" style="width: 5%;height: 5%;"> -->
+            <a class="navbar-brand hena animate__animated animate__bounce" href="#">Henaron <span class="teck">tech. world.</span> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+            <div  id="navbarNav" class="collapse navbar-collapse naaav"  >
+                <ul class="navbar-nav ms-auto  animate__animated animate__pulse" style="margin-left: 60%;"  data-in="fadeInDown" data-out="fadeOutUp">
+                    <li class="nav-item "><a  class="nav-link pb-1 border-bottom border-primary border-0 border-hover" href="#home">Home</a></li>
+                    <li class="nav-item smooth-menu"><a  class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item smooth-menu"><a  class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item smooth-menu"><a  class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item smooth-menu"><a  class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item smooth-menu"><a  class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- parent Section -->
+    <header class="parent" id="home">
+        <div class="container text-left slow-motion parre">
+            <!-- <h3>Hi, I'm <span class="hen">Henry, -->
+                <div class="row" style="margin-top:-50px !important;">
+                    <div class="col-12 col-md-6" style="margin-top:-50px;">
+                        <div class="parent-text" style="margin-top:-50px;">
+                            <h2>hi <span>,</span>, i am <br> henry <br> arijeniwa <span>.</span></h2>
+                            <h1><span style="font-size:medium;">I'm a</span> <span class="repeat slow-motion" id="text-repeat"></span></h1>
+                            <p>I create responsive and interactive <span style="color: #d3f2ec; font-size: 40px; font-weight:bold;">websites.</span></p>
+                            <a id="downloadBtn" href="download">Hire Me</a>
+                            
+                            <!-- Download CV Button -->
+                            <!-- <button id="downloadBtn" style="margin-top: 10px; padding: 10px 20px; background: #28a745; color: white; border: none; cursor: pointer; font-size: 16px; border-radius: 5px;">
+                                Download My CV
+                            </button> -->
+                        </div>
+                    </div>
+                
+
+                 <div class="col-12 col-md-6 imagee my-5" >
+                        <marquee behavior="scroll" direction="right">Lets Connect</marquee>
+
+
+                        <div class="social-media slow-motion">
+                            <a href="https://web.facebook.com/henry.a.aaron"><i class="fab fa-facebook face"></i></a>
+                            <a href=""><i class="fab fa-instagram inst" ></i></a>
+                            <a href="https://whatsapp.com/dl/code=zBxR1oSuk3"><i class="fab fa-whatsapp whats"></i></a>
+                            <a href="https://www.linkedin.com/in/henry-arije-niwa-650927242"><i class="fab fa-linkedin lin" ></i></a>
+                            <a href="https:githubs.com/henaron22"><i class="fab fa-github gits"></i></a>
+                            <a href=""><i class="fab fa-twitter gits"></i></a>
+
+                
+                        </div>
+                  </div>
+                  
+                </div>
+                          
+        </div>
+
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 aboutme slow-motion shadow">
+        <div class="container-fluid about-cont shadow">
+            <div class="section-title  text-center mt-5">
+                <h2 class="">About Me</h2>
+            </div>
+
+            <div class="abt-nam">
+                <h2 class="ml-5">Henry Arijeniwa Aaron</h2>
+                <h1 class="ml-5">Professional IT Enthusiast <span style="color:#bfb27c">|</span> Web Developer</h1>
+            </div>
+            
+    
+    <div class="row p-5 shadow  mult" style="height: fit-content; border: 2px solid #bfb27c; ">
+                <div class="col-md-6 multip shadow" >
+                    <p class="text-left multiple-text" id="typeWriter"></p>
+
+
+
+                    <div class="row shadow">
+                        <div class="col-sm-4">
+                            <div class="single-about-add-info">
+                                <h3 style="color:  #b8d9bd">phone</h3>
+                                <p style="color: #bfb27c;">+234 80 6111 5385</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="single-about-add-info">
+                                <h3 style="color: #b8d9bd;">email</h3>
+                                <p style="color: #bfb27c;">henryarijeniwa@gmail</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="single-about-add-info">
+                                <h3 style="color: #b8d9bd;">website</h3>
+                                <p style="color: #bfb27c;">www.henaron.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="col-md-6 slow-motion shadow p-3" style="border: 2px solid #bfb27c;">
+                    <div class="ab-img ">
+                        <!-- <img src="mine4.jpg" alt="" style="width: 100%; height: 100%;" class="about-im slow-motion"> -->
+
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+     <section id="skills" class=" py-5 skil slow-motion shadow">
+        <div class="container skiii">
+            <h2 class="section-title">Skills</h2>
+            <div class="row">
+
+    <div class="col-md-3 py-3">
+        <div class="card text-center card-skil">
+            <div class="card-body">
+                <h5 class="card-title">HTML</h5>
+                <div>
+                    <i class="fab fa-html5 html-logo" style="font-size: 50px;color: #E34F26;"></i>
+                </div>
+                <div class="percentage">90%</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-3 py-3">
+        <div class="card text-center card-skil">
+            <div class="card-body">
+                <h5 class="card-title">CSS</h5>
+                <div>
+                    <i class="fab fa-css3-alt css-logo" style="font-size: 50px;color: #264de4;"></i>
+                </div>
+                <div class="percentage">85%</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-3 py-3">
+        <div class="card text-center card-skil">
+            <div class="card-body">
+                <h5 class="card-title">JavaScript</h5>
+                <div>
+                    <i class="fab fa-js js-logo" style="font-size: 50px;color: #f7df1e;"></i>
+                </div>
+                <div class="percentage">70%</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-3 py-3">
+        <div class="card text-center card-skil">
+            <div class="card-body">
+                <h5 class="card-title">React.js</h5>
+                <div>
+                    <i class="fab fa-react react-logo" style="font-size: 50px;color: #61DBFB;"></i>
+                </div>
+                <div class="percentage">60%</div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="col-md-3 py-3">
+        <div class="card text-center card-skil">
+            <div class="card-body">
+                <h5 class="card-title">Python</h5>
+                <div>
+                    <!-- <i class="fab fa-python python-logo" style="font-size: 50px;color: #E34F26;"></i> -->
+                    <i class="fab fa-python python-logo" style="font-size: 50px;color: #3776AB;"></i>
+                </div>
+                <div class="percentage">70%</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-3 py-3">
+        <div class="card text-center card-skil">
+            <div class="card-body">
+                <h5 class="card-title">Django</h5>
+                <div>
+                    <i class="fas fa-laptop-code django-logo" style="font-size: 50px;color: #092E20;"></i>
+                </div>
+                <div class="percentage">75%</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-3 py-3">
+        <div class="card text-center card-skil">
+            <div class="card-body">
+                <h5 class="card-title">PHP</h5>
+                <div>
+                    <i class="fab fa-php php-logo" style="font-size: 50px;color: #787CB5;"></i>
+                </div>
+                <div class="percentage">75%</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-3 py-3">
+        <div class="card text-center card-skil">
+            <div class="card-body">
+                <h5 class="card-title">Photoshop</h5>
+                <div>
+                    <i class="fas fa-palette photoshop-icon" style="font-size: 50px;color: #ff0000;"></i>
+                </div>
+                <div class="percentage">55%</div>
+            </div>
+        </div>
+    </div>
+
+
+            </div>
+        </div>
+     </section>
+
+
+    <!-- services section -->
+
+    <section id="services" class="py-5 services slow-motion shadow">
+        <div class="container">
+            <h2 class="section-title servi">Services</h2>
+            <div class="row">
+                <div class="col-md-4 mt-2">
+                    <div class="card service-card">
+                        <div class="card-body">
+                            <i class="fas fa-code service-icon"></i>
+                            <h5 class="card-title">Web Development</h5>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-2">
+                    <div class="card service-card">
+                        <div class="card-body">
+                            <i class="fas fa-paint-brush service-icon"></i>
+                            <h5 class="card-title">UI/UX Design</h5>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-2">
+                    <div class="card service-card">
+                        <div class="card-body">
+                            <i class="fas fa-mobile-alt service-icon"></i>
+                            <h5 class="card-title">Mobile Optimization</h5>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mt-2">
+                    <div class="card service-card">
+                        <div class="card-body">
+                            <i class="fa-brands fa-wordpress service-icon"></i>
+                            <h5 class="card-title">WordPress Development</h5>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mt-2">
+                    <div class="card service-card">
+                        <div class="card-body">
+                            <i class="fa-solid fa-pen-nib service-icon"></i>
+                            <h5 class="card-title">Branding and Logo Design</h5>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 mt-2">
+                    <div class="card service-card">
+                        <div class="card-body">
+                            <i class="fa-solid fa-feather-alt service-icon"></i>
+                            <h5 class="card-title">Graphic Design for Web&Print</h5>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     
+    <section id="projects" class="py-5 pro slow-motion shadow">
+        <div class="container proj">
+            <h2 class="section-title">Projects</h2>
+            <div class="row">
+                <div class="col-md-4 project-card mt-2">
+                    <div class="card position-relative">
+                        <div class="image-container">
+                            <img src="images/cart.jpg" class="card-img-top" alt="Project 1">
+                            <div class="pro-detail"> A fully functional online shopping 
+                                platform with secure payment integration and a
+                                 user-friendly interface.</div>
+                        </div>
+                        <div class="card-body">
+                            <!-- <h5 class="card-title">Online Store Websites</h5> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 project-card mt-2 ">
+                    <div class="card position-relative">
+                        <div class="image-container">
+                            <img src="images/cbt.jpg" class="card-img-top" alt="Project 2">
+                            <div class="pro-detail"> A dynamic Web-based CBT platform designed 
+                                for seamless online Examinartion.</div>
+                        </div>
+                        <div class="card-body">
+                            <!-- <h5 class="card-title">CBT Exam for Schools</h5> -->
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-4 project-card mt-2 ">
+                    <div class="card position-relative">
+                        <div class="image-container">
+                            <img src="images/hi1.jpeg" class="card-img-top" alt="Project 3">
+                            <div class="pro-detail"> A sleek and responsive hotel booking website 
+                                with reservation management and online payment support.</div>
+                        </div>
+                        <div class="card-body">
+                            <!-- <h5 class="card-title">Online Store Websites</h5> -->
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-md-4 project-card mt-2">
+                    <div class="card position-relative">
+                        <div class="image-container">
+                            <img src="images/cartgirl.jpg" class="card-img-top" alt="Project 4">
+                            <div class="pro-detail"> A dynamic e-commerce platform featuring product 
+                                categories, a shopping cart, and secure checkout.</div>
+                        </div>
+                        <div class="card-body">
+                            <!-- <h5 class="card-title">Online Store Websites</h5> -->
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 project-card mt-2">
+                    <div class="card position-relative">
+                        <div class="image-container">
+                            <img src="images/doc.jpg" class="card-img-top" alt="Project 5">
+                            <div class="pro-detail">A comprehensive system for managing students, 
+                                courses, and academic records efficiently.</div>
+                        </div>
+                        <div class="card-body">
+                            <!-- <h5 class="card-title">Online Store Websites</h5> -->
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 project-card mt-2">
+                    <div class="card position-relative">
+                        <div class="image-container">
+                            <img src="images/todo.jpg" class="card-img-top" alt="Project 6">
+                            <div class="pro-detail">A simple and efficient task management app
+                                 with features like to-do-List and progress tracking.</div>
+                        </div>
+                        <div class="card-body">
+                            <!-- <h5 class="card-title">Online Store Websites</h5> -->
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+   
+    <!-- Contact Section -->
+    <section id="contact" class=" contactme shadow">
+        <div class="container">
+            <h2 class="section-title pt-5 slow-motion">Contact Me</h2>
+            <div class="jombotron w-75">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+
+
+            <div class="contact-info">
+                <div class="contact-info">
+            <p><strong>Email:</strong> <a href="mailto:intelhenri@gmailcom">support@henarontechworld.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+2348061115385">+234 80 6111 5385</a></p>
+        
+            <p><strong>Chat on WhatsApp:</strong></p>
+            <a href="https://wa.me/08061115385" target="_blank" class="whatsapp-button">
+                <img src="images/109-whatsapp.png" alt="WhatsApp"> Chat Now</a>
+        
+            <p><strong>Follow Me:</strong></p>
+            <a href="https://web.facebook.com/henry.a.aaron">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a>
+        </div>
+        
+                </div>
+
+           
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Henaron Tech World. <span class="text-light">All Rights Reserved.</span></p>
+
+        <div id="scroll-top">
+            <div class="return-top" onclick="">
+                <a href="#home"><i class="fas fa-angle-up ang" style="color: white;"></i></a>
+
+            </div>
+        
+        </div>
+    
+    </footer>
+
+    <script src="bootfiles/jquery-slim.min.js"></script>
+    <script src="bootfiles/popper.min.js"></script>
+    <script src="bootfiles/bootstrap.js"></script>
+    <script src="bootfiles/bootstrap.min.js"></script>
+    <script src="bootfiles/bootstrap.bundle.js"></script>
+    <script src="bootfiles/alert.js"></script>
+    <script src="myPortfolio.js"></script>
+
+
+</body>
+
+</html>
