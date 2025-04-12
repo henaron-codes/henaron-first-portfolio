@@ -192,6 +192,17 @@ html{
 
 
 
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
+  }
+}
+
+
+
+
 
 marquee{
     font-style: italic;
@@ -216,6 +227,17 @@ marquee{
         /* background-color: #61DBFB; */
         
     }
+
+    #typewriter{
+        font-size: 5px;
+    }
+
+    .face,.inst,.whats,.lin,.gits{
+    margin: 10%;
+    font-size: 10px;
+    /* color: #bfb27c; */
+    
+}
 }
 
 
@@ -423,8 +445,9 @@ marquee{
 }
 
 
-.abt-nam h1, h2{
+.abt-nam h1, h3{
     color: #005a48;
+    font-weight: bold;
 }
 
 
@@ -807,6 +830,7 @@ marquee{
     text-align: center;
     padding: 20px;
     font-weight: bold;
+    font-size: 15px;
 }
 
 
@@ -824,32 +848,35 @@ marquee{
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg sticky-top nava shadow-5">
-        <div class="container ">
-            <!-- <img src="henaron.png" alt="" style="width: 5%;height: 5%;"> -->
-            <a class="navbar-brand hena animate__animated animate__bounce" href="#">Henaron <span class="teck">Tech.</span> </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa fa-bars"></i>
-            </button>
-            <div  id="navbarNav" class="collapse navbar-collapse naaav"  >
-                <ul class="navbar-nav ms-auto  animate__animated animate__pulse" style="margin-left: 60%;"  data-in="fadeInDown" data-out="fadeOutUp">
-                    <li class="nav-item "><a  class="nav-link pb-1 border-bottom border-primary border-0 border-hover" href="#home">Home</a></li>
-                    <li class="nav-item smooth-menu"><a  class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item smooth-menu"><a  class="nav-link" href="#skills">Skills</a></li>
-                    <li class="nav-item smooth-menu"><a  class="nav-link" href="#services">Services</a></li>
-                    <li class="nav-item smooth-menu"><a  class="nav-link" href="#projects">Projects</a></li>
-                    <li class="nav-item smooth-menu"><a  class="nav-link" href="#contact">Contact</a></li>
-                </ul>
-            </div>
+        <div class="container">
+          <a class="navbar-brand hena animate__animated animate__zoomIn" href="#">Henaron <span class="teck">Tech.</span></a>
+          
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+          </button>
+          
+          <div id="navbarNav" class="collapse navbar-collapse naaav animate__animated animate__fadeInDown ">
+            <ul class="navbar-nav ml-auto text-center text-lg-end animate__animated animate__pulse" data-in="fadeInDown" data-out="fadeOutUp">
+              <li class="nav-item"><a class="nav-link pb-1 border-bottom border-primary border-0 border-hover" href="#home">Home</a></li>
+              <li class="nav-item smooth-menu"><a class="nav-link" href="#about">About</a></li>
+              <li class="nav-item smooth-menu"><a class="nav-link" href="#skills">Skills</a></li>
+              <li class="nav-item smooth-menu"><a class="nav-link" href="#services">Services</a></li>
+              <li class="nav-item smooth-menu"><a class="nav-link" href="#projects">Projects</a></li>
+              <li class="nav-item smooth-menu"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+          </div>
         </div>
-    </nav>
+      </nav>
+      
+      
 
     <!-- parent Section -->
     <header class="parent" id="home">
         <div class="container text-left slow-motion parre">
             <!-- <h3>Hi, I'm <span class="hen">Henry, -->
-                <div class="row" style="margin-top:-50px !important;">
-                    <div class="col-12 col-md-6 mt-3" style="margin-top:-50px;">
+                <div class="row" style="margin-top:-30px !important;">
+                    <div class="col-12 col-md-6 mt-3">
                         <div class="parent-text mt-5" style="color-interpolation-filters: bg-black;">
                             <h2>hi<span>,</span> i am <br> henry <br> arijeniwa<span>.</span></h2>
                             <h1><span style="font-size:medium;">I'm a</span> <span class="repeat slow-motion" id="text-repeat"></span></h1>
@@ -887,40 +914,39 @@ marquee{
     </header>
 
     <!-- About Section -->
+
     <section id="about" class="py-5 aboutme slow-motion shadow">
-        <div class="container-fluid about-cont shadow">
+        <div class="container-fluid px-0 about-cont shadow">
             <div class="section-title  text-center mt-5">
-                <h2 class="slow-motion">About Me</h2>
+                <h3 class="slow-motion">About Me</h3>
             </div>
 
             <div class="abt-nam">
-                <h2 class="ml-5">Henry Arijeniwa Aaron</h2>
-                <h1 class="ml-5">Professional IT Enthusiast <span style="color:#bfb27c">|</span> Web Developer</h1>
+                <h2 class=" ml-md-5 px-3 px-md-0">Henry Arijeniwa Aaron</h2>
+                <h4 class="ml-md-5 px-3 px-md-0">Professional IT Enthusiast <span style="color:#bfb27c">|</span> Web Developer</h4>
             </div>
             
     
-    <div class="row p-5 shadow  mult" style="height: fit-content; border: 2px solid #bfb27c; ">
+    <div class="row shadow  mult" style="height: fit-content; border: 2px solid #bfb27c; ">
                 <div class="col-md-6 multip shadow" >
-                    <p class="text-left multiple-text" id="typeWriter"></p>
+                    <p class="text-align-justify multiple-text" id="typeWriter"></p>
 
-
-
-                    <div class="row shadow">
+                    <div class="row shadow pl-5">
                         <div class="col-sm-4">
                             <div class="single-about-add-info">
-                                <h3 style="color:  #b8d9bd">phone</h3>
+                                <h4 style="color:  #b8d9bd">phone</h4>
                                 <p style="color: #bfb27c;">+234 80 6111 5385</p>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="single-about-add-info">
-                                <h3 style="color: #b8d9bd;">email</h3>
+                                <h4 style="color: #b8d9bd;">email</h4>
                                 <p style="color: #bfb27c;">henryarijeniwa@gmail</p>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="single-about-add-info">
-                                <h3 style="color: #b8d9bd;">website</h3>
+                                <h4 style="color: #b8d9bd;">website</h4>
                                 <p style="color: #bfb27c;">www.henaron.com</p>
                             </div>
                         </div>
@@ -944,7 +970,7 @@ marquee{
     <!-- Skills Section -->
      <section id="skills" class=" py-5 skil slow-motion shadow">
         <div class="container skiii">
-            <h2 class="section-title slow-motion">Skills</h2>
+            <h3 class="section-title slow-motion">Skills</h3>
             <div class="row">
 
     <div class="col-md-3 py-3">
@@ -1056,7 +1082,7 @@ marquee{
 
     <section id="services" class="py-5 services slow-motion shadow">
         <div class="container">
-            <h2 class="section-title servi slow-motion">Services</h2>
+            <h3 class="section-title servi slow-motion">Services</h3>
             <div class="row">
                 <div class="col-md-4 mt-2">
                     <div class="card service-card">
@@ -1123,7 +1149,7 @@ marquee{
      
     <section id="projects" class="py-5 pro slow-motion shadow">
         <div class="container proj">
-            <h2 class="section-title slow-motion">Projects</h2>
+            <h3 class="section-title slow-motion">Projects</h3>
             <div class="row">
                 <div class="col-md-4 project-card mt-2">
                     <div class="card position-relative">
@@ -1217,9 +1243,9 @@ marquee{
     <!-- Contact Section -->
     <section id="contact" class=" contactme shadow slow-motion" >
         <div class="container">
-            <h2 class="section-title pt-5 slow-motion">Contact Me</h2>
-            <div class="jombotron w-75">
-                <form>
+            <h3 class="section-title pt-5 slow-motion">Contact Me</h3>
+            <div class="jombotron w-100">
+                <form class="">
                     <div class="mb-3">
                         <label for="name" class="form-label">Name</label>
                         <input type="text" class="form-control" id="name" placeholder="Enter your name">
@@ -1258,7 +1284,7 @@ marquee{
 
     <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2025 Henaron Tech World. <span class="text-light">All Rights Reserved.</span></p>
+        <p >&copy; 2025 Henaron Tech. <span class="text-light" style="font-size: 15px;">All Rights Reserved.</span></p>
 
         <div id="scroll-top">
             <div class="return-top" onclick="">
