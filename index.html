@@ -856,6 +856,86 @@
         color: green;
         font-weight: bold;
       }
+
+      /* text at phone size? */
+
+      @media (max-width: 768px) {
+        /* Global font size reduction */
+        body {
+          font-size: 12px;
+        }
+
+        h1 {
+          font-size: 22px;
+        }
+
+        h2 {
+          font-size: 18px;
+        }
+
+        h3 {
+          font-size: 17px;
+        }
+
+        h4 {
+          font-size: 15px;
+        }
+
+        h5 {
+          font-size: 14px;
+        }
+
+        h6 {
+          font-size: 13px;
+        }
+
+        p,
+        .nav-link,
+        .card-title,
+        .card-text,
+        .form-label,
+        .form-control,
+        .btn,
+        .percentage {
+          font-size: 14px !important;
+        }
+
+        .navbar-brand {
+          font-size: 18px;
+        }
+
+        .btn-download,
+        .btn-primary {
+          font-size: 13px;
+          padding: 8px 16px;
+        }
+
+        .repeat {
+          font-size: 16px !important;
+        }
+
+        .social-media i {
+          font-size: 18px;
+        }
+
+        .card .fa,
+        .card .fab,
+        .card .fas {
+          font-size: 36px !important;
+        }
+
+        footer p {
+          font-size: 12px;
+        }
+
+        .whatsapp-button img {
+          width: 18px;
+        }
+
+        .section-title {
+          font-size: 17px;
+        }
+      }
     </style>
   </head>
 
@@ -988,7 +1068,9 @@
     <section id="about" class="py-5 aboutme slow-motion">
       <div class="container about-cont px-3 px-md-5">
         <div class="section-title text-center mb-4">
-          <h3 class="slow-motion">About Me</h3>
+          <h3 class="slow-motion" style="color: #005a48; font-weight: bold">
+            About Me
+          </h3>
         </div>
 
         <div class="abt-nam mb-4">
@@ -1044,65 +1126,6 @@
         </div>
       </div>
     </section>
-
-    <!-- <section id="about" class="py-5 aboutme slow-motion">
-      <div class="container-fluid px-0 about-cont">
-        <div class="section-title text-center mt-5">
-          <h3 class="slow-motion">About Me</h3>
-        </div>
-
-        <div class="abt-nam">
-          <h2 class="ml-md-5 px-3 px-md-0">Henry Arijeniwa Aaron</h2>
-          <h4 class="ml-md-5 px-3 px-md-0">
-            Professional IT Enthusiast <span style="color: #bfb27c">|</span> Web
-            Developer
-          </h4>
-        </div>
-
-        <div
-          class="row shadow mult"
-          style="height: fit-content; border: 2px solid #bfb27c"
-        >
-          <div class="col-md-6 multip shadow">
-            <p
-              class="text-align-justify multiple-text p-5"
-              style="font-size: 17px"
-              id="typeWriter"
-            ></p>
-
-            <div class="row shadow px-3" style="margin-top: 30%">
-              <div class="col-sm-4">
-                <div class="single-about-add-info">
-                  <h4 style="color: #b8d9bd">phone</h4>
-                  <p style="color: #bfb27c">+234 80 6111 5385</p>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="single-about-add-info">
-                  <h4 style="color: #b8d9bd">email</h4>
-                  <p style="color: #bfb27c">henryarijeniwa@gmail.com</p>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="single-about-add-info">
-                  <h4 style="color: #b8d9bd">website</h4>
-                  <p style="color: #bfb27c">www.henaron.com</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="col-md-6 slow-motion shadow p-3"
-            style="border: 2px solid #bfb27c"
-          >
-            <div class="ab-img">
-              <img src="mine4.jpg" alt="" style="width: 100%; height: 100%;" class="about-im slow-motion">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
 
     <!-- Skills Section -->
     <section id="skills" class="py-5 skil slow-motion shadow">
