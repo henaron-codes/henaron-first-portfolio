@@ -135,30 +135,3 @@ document.addEventListener("DOMContentLoaded", function () {
     revealOnScroll(); // Trigger on page load
 });
 
-
-
-// No 7
-
-
-document.getElementById('downloadBtn').addEventListener('click', function () {
-    const pdfUrl = 'CV.pdf'; // URL where your PDF is hosted
-    const link = document.createElement('a');
-    link.href = pdfUrl;
-    link.download = 'CV.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-});
-
-
-
-document.getElementById("downloadBtn").addEventListener("click", function() {
-    // Replace 'cv.pdf' with the actual path of your CV file
-    const cvUrl = "cv.pdf";  
-    const link = document.createElement("a");
-    link.href = cvUrl;
-    link.download = "CV.pdf"; // File name when downloaded
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-});
