@@ -410,9 +410,9 @@
         color: #bfb27c;
       }
 
-      .bordered {
-        border: 2px solid #bfb27c;
-      }
+      /* .bordered {
+        border: 1px solid #bfb27c;
+      } */
 
       .single-about-add-info h4 {
         color: #b8d9bd;
@@ -499,7 +499,7 @@
       .skil,
       .pro {
         background-color: #d3f2ec;
-        border: 2px solid #bfb27c;
+        border: 1px solid #bfb27c;
       }
 
       .skiii {
@@ -653,7 +653,7 @@
         ); /* Dark overlay */
         color: #005a48;
         font-weight: bold;
-        display: flex;
+        /* display: flex; */
         align-items: center;
         justify-content: center;
         opacity: 0;
@@ -682,6 +682,19 @@
 
       .proj h3 {
         color: #005a48;
+      }
+
+      .project-link i {
+        margin-left: 5px;
+        opacity: 0;
+        transform: translateY(3px);
+        transition: all 0.3s ease;
+        color: gold;
+      }
+
+      .project-link:hover i {
+        opacity: 1;
+        transform: translateY(0);
       }
 
       .fa {
@@ -866,27 +879,27 @@
         }
 
         h1 {
-          font-size: 22px;
+          font-size: 20px;
         }
 
         h2 {
-          font-size: 18px;
-        }
-
-        h3 {
           font-size: 17px;
         }
 
-        h4 {
-          font-size: 15px;
+        h3 {
+          font-size: 16px;
         }
 
-        h5 {
+        h4 {
           font-size: 14px;
         }
 
-        h6 {
+        h5 {
           font-size: 13px;
+        }
+
+        h6 {
+          font-size: 12px;
         }
 
         p,
@@ -897,11 +910,11 @@
         .form-control,
         .btn,
         .percentage {
-          font-size: 14px !important;
+          font-size: 13px !important;
         }
 
         .navbar-brand {
-          font-size: 18px;
+          font-size: 20px;
         }
 
         .btn-download,
@@ -925,15 +938,28 @@
         }
 
         footer p {
-          font-size: 12px;
+          font-size: 7px;
+        }
+
+        footer span {
+          font-size: 7px;
         }
 
         .whatsapp-button img {
-          width: 18px;
+          width: 15px;
         }
 
         .section-title {
-          font-size: 17px;
+          font-size: 16px;
+        }
+
+        .project-link i {
+          font-size: small;
+          /* margin-left: 5px;
+        opacity: 0;
+        transform: translateY(3px);
+        transition: all 0.3s ease;
+        color: gold; */
         }
       }
     </style>
@@ -1046,13 +1072,13 @@
               <a href="https://www.instagram.com/henryniwa"
                 ><i class="fab fa-instagram inst"></i
               ></a>
-              <a href="https://wa.me/08061115385"
+              <!-- <a href="https://wa.me/08061115385"
                 ><i class="fab fa-whatsapp whats"></i
-              ></a>
+              ></a> -->
               <a href="https://www.linkedin.com/in/henry-arije-niwa-650927242"
                 ><i class="fab fa-linkedin lin"></i
               ></a>
-              <a href="https:githubs.com/henaron90"
+              <a href="https://github.com/henaron-codes"
                 ><i class="fab fa-github gits"></i
               ></a>
               <a href=""><i class="fab fa-twitter gits"></i></a>
@@ -1113,7 +1139,11 @@
               <div class="col-12 col-sm-4">
                 <div class="single-about-add-info">
                   <h4>Website</h4>
-                  <p>www.henaron.com</p>
+                  <a
+                    href="https://www.linkedin.com/in/henry-arije-niwa-650927242"
+                    style="color: #bfb27c"
+                    >HenaronTech.</a
+                  >
                 </div>
               </div>
             </div>
@@ -1338,8 +1368,19 @@
                   alt="Project 1"
                 />
                 <div class="pro-detail">
-                  A fully functional online shopping platform with secure
-                  payment integration and a user-friendly interface.
+                  <p>
+                    A fully functional online shopping platform with secure
+                    payment integration and a user-friendly interface.
+                  </p>
+                  <a
+                    href="https://www.linkedin.com/in/henry-arije-niwa-650927242"
+                    class="project-link d-block"
+                    style="color: gold"
+                    target="_blank"
+                  >
+                    View Project
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </a>
                 </div>
               </div>
               <div class="card-body">
@@ -1356,8 +1397,20 @@
                   alt="Project 2"
                 />
                 <div class="pro-detail">
-                  A dynamic Web-based CBT platform designed for seamless online
-                  Examinartion.
+                  <p>
+                    A dynamic Web-based CBT platform designed for seamless
+                    online Examinartion.
+                  </p>
+
+                  <a
+                    href="https://www.linkedin.com/in/henry-arije-niwa-650927242"
+                    class="project-link d-block"
+                    style="color: gold"
+                    target="_blank"
+                  >
+                    View Project
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </a>
                 </div>
               </div>
               <div class="card-body">
@@ -1375,8 +1428,20 @@
                   alt="Project 3"
                 />
                 <div class="pro-detail">
-                  A sleek and responsive hotel booking website with reservation
-                  management and online payment support.
+                  <p>
+                    A sleek and responsive hotel booking website with
+                    reservation management and online payment support.
+                  </p>
+
+                  <a
+                    href="https://www.linkedin.com/in/henry-arije-niwa-650927242"
+                    class="project-link d-block"
+                    style="color: gold"
+                    target="_blank"
+                  >
+                    View Project
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </a>
                 </div>
               </div>
               <div class="card-body">
@@ -1394,8 +1459,20 @@
                   alt="Project 4"
                 />
                 <div class="pro-detail">
-                  A dynamic e-commerce platform featuring product categories, a
-                  shopping cart, and secure checkout.
+                  <p>
+                    A dynamic e-commerce platform featuring product categories,
+                    a shopping cart, and secure checkout.
+                  </p>
+
+                  <a
+                    href="https://www.linkedin.com/in/henry-arije-niwa-650927242"
+                    class="project-link d-block"
+                    style="color: gold"
+                    target="_blank"
+                  >
+                    View Project
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </a>
                 </div>
               </div>
               <div class="card-body">
@@ -1413,8 +1490,20 @@
                   alt="Project 5"
                 />
                 <div class="pro-detail">
-                  A comprehensive system for managing students, courses, and
-                  academic records efficiently.
+                  <p>
+                    A comprehensive system for managing students, courses, and
+                    academic records efficiently.
+                  </p>
+
+                  <a
+                    href="https://www.linkedin.com/in/henry-arije-niwa-650927242"
+                    class="project-link d-block"
+                    style="color: gold"
+                    target="_blank"
+                  >
+                    View Project
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </a>
                 </div>
               </div>
               <div class="card-body">
@@ -1432,8 +1521,20 @@
                   alt="Project 6"
                 />
                 <div class="pro-detail">
-                  A simple and efficient task management app with features like
-                  to-do-List and progress tracking.
+                  <p>
+                    A simple and efficient task management app with features
+                    like to-do-List and progress tracking.
+                  </p>
+
+                  <a
+                    href="https://www.linkedin.com/in/henry-arije-niwa-650927242"
+                    class="project-link d-block"
+                    style="color: gold"
+                    target="_blank"
+                  >
+                    View Project
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </a>
                 </div>
               </div>
               <div class="card-body">
@@ -1493,7 +1594,7 @@
               <a href="tel:+2348061115385">+234 80 6111 5385</a>
             </p>
 
-            <p><strong>Chat on WhatsApp:</strong></p>
+            <p style="font-size: 20px"><strong>Chat on WhatsApp:</strong></p>
             <a
               href="https://wa.me/08061115385"
               target="_blank"
@@ -1502,9 +1603,9 @@
               <img src="images/109-whatsapp.png" alt="WhatsApp" /> Chat Now</a
             >
 
-            <p><strong>Follow Me:</strong></p>
+            <p><strong style="font-size: 10px">Follow Me:</strong></p>
             <a href="https://web.facebook.com/henry.a.aaron">Facebook</a> |
-            <a href="#">Twitter</a> |
+            <a href="https://github.com/henaron-codes">gitHub</a> |
             <a href="https://www.instagram.com/henryniwa">Instagram</a>
           </div>
         </div>
@@ -1513,9 +1614,9 @@
 
     <!-- Footer -->
     <footer class="footer">
-      <p>
+      <p style="font-size: 10px">
         &copy; 2025 Henaron Tech.
-        <span class="text-light" style="font-size: 15px"
+        <span class="text-light" style="font-size: 10px"
           >All Rights Reserved.</span
         >
       </p>
